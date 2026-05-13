@@ -8,7 +8,7 @@
         "url": "https://github.com/rxssula/effect-http-starter/issues"
     },
     "homepage": "https://github.com/rxssula/effect-http-starter#readme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Scaffold a new Effect HTTP server project with schema-first API design",
     "type": "module",
     "bin": {
