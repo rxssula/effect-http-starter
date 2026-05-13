@@ -1,0 +1,24 @@
+{
+  "name": "{{name}}",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot ./index.ts",
+    "start": "bun ./index.ts",
+    "prepare": "effect-language-service patch && effect-tsgo patch"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.85.1",
+    "@types/bun": "latest",
+    "@typescript/native-preview": "latest",
+    "@effect/tsgo": "0.5.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/platform-bun": "4.0.0-beta.60",
+    "effect": "^4.0.0-beta.60"
+  }
+}
