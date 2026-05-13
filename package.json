@@ -1,31 +1,39 @@
 {
-  "name": "create-effect-http-starter",
-  "version": "1.0.0",
-  "description": "Scaffold a new Effect HTTP server project with schema-first API design",
-  "type": "module",
-  "bin": {
-    "create-effect-http-starter": "dist/cli.js"
-  },
-  "files": [
-    "dist",
-    "templates"
-  ],
-  "scripts": {
-    "build": "tsup src/cli.ts --format esm --out-dir dist --clean",
-    "prepack": "bun run build"
-  },
-  "keywords": [
-    "effect",
-    "http",
-    "server",
-    "template",
-    "starter",
-    "scaffold",
-    "create"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
-  }
+    "name": "create-effect-http-starter",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rxssula/effect-http-starter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rxssula/effect-http-starter/issues"
+    },
+    "homepage": "https://github.com/rxssula/effect-http-starter#readme",
+    "version": "1.0.0",
+    "description": "Scaffold a new Effect HTTP server project with schema-first API design",
+    "type": "module",
+    "bin": {
+        "create-effect-http-starter": "dist/cli.js"
+    },
+    "files": [
+        "dist",
+        "templates"
+    ],
+    "scripts": {
+        "build": "tsup src/cli.ts --format esm --out-dir dist --clean",
+        "prepack": "bun run build"
+    },
+    "keywords": [
+        "effect",
+        "http",
+        "server",
+        "template",
+        "starter",
+        "scaffold",
+        "create"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.5.1",
+        "typescript": "^6.0.3"
+    }
 }
